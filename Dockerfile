@@ -10,7 +10,6 @@ RUN apt-get update && apt-get install -y vim
 ADD jupyterhub_environment.yml jupyterhub_environment.yml
 
 RUN conda env create -f jupyterhub_environment.yml
-RUN conda install -c conda-forge -c esmvalgroup -c birdhouse esmvaltool
 
 RUN source activate esmvaltool && \
     /opt/conda/bin/ipython kernel install --user --name esmvaltool
