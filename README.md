@@ -17,6 +17,12 @@ Then restart your server to see esmvaltool environment (as shown on the figure b
 
 ![](esmvaltool.png)
 
+## Pangeo software stack
+
+```
+source activate pangeo
+python -m ipykernel install --user --name=pangeo
+```
 
 ## Using esmvaltool from the command line
 
