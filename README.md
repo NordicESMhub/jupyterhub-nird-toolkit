@@ -32,3 +32,7 @@ python -m ipykernel install --user --name=pangeo
 Also when you open a notebook, make sure to select **pangeo** for the kernel.
 
 
+## Examples of Notebooks
+
+- Examples of data processing can be found [here](https://nordicesmhub.github.io/Norway_Sweden_training/intro).
+- Feel free to [contact us](https://github.com/NordicESMhub/jupyterhub-nird-toolkit/issues/new) to add new resources/examples.
