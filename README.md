@@ -2,6 +2,11 @@
 
 [Docker image](https://hub.docker.com/r/nordicesmhub/climate-nird-toolkit) for Jupyterhub [pangeo](http://pangeo.io/) NIRD toolkit.
 
+## Getting access
+
+We are maintaining a Jupyterhub instance called [https://climate.uiogeo-apps.sigma2.no/](https://climate.uiogeo-apps.sigma2.no/) as part of [EOSC-Nordic](https://www.eosc-nordic.eu/). From this instance, you can access all CMIP data maintained by Norway.
+
+Access can be granted on demand for all researchers working in the Nordics. Please fill an [issue](https://github.com/NordicESMhub/jupyterhub-nird-toolkit/issues/new); make sure you explain (shortly) what project you are working on.
 
 ## Activate pangeo conda environment in the jupyterhub
 
