@@ -7,7 +7,6 @@ USER root
 RUN apt-get update && apt-get install -y vim
 
 # Install requirements for Python 3
-# Install requirements for Python 3
 ADD environment.yml environment.yml
 
 # Python packages
